@@ -1,7 +1,6 @@
 import random
 
-word_list = ["ant", "baboon", "badger", "bat", "bear", "beaver", "camel", "cat", "clam", "cobra", "cougar", "coyote"]
-
+word_list = ["priest", "hauntingadeline", "doesithurt", "stillbeating", "silluv", "flock", "therearenosaints"]
 hangman_pics = [
     """
       +---+
@@ -90,7 +89,7 @@ def display_game(word, guesses, incorrect_guesses):
 
 
 word = get_word()
-max_guesses = 6
+max_guesses = 10
 guesses = set()
 incorrect_guesses = set()
 
